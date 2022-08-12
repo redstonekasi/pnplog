@@ -1,0 +1,23 @@
+{
+  "name": "pnplog",
+  "description": "pnpm-style logging",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier -wc ."
+  },
+  "type": "module",
+  "author": "redstonekasi",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "ansi-diff": "^1.1.1",
+    "bole": "^5.0.0",
+    "ndjson": "^2.0.0",
+    "normalize-path": "^3.0.0",
+    "right-pad": "^1.0.1",
+    "rxjs": "^7.5.6"
+  }
+}
